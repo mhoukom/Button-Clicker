@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <input type="text"placeholder="Search">
+            <button class="nav-btn"onclick="logOut(this)"class="nav-btn">Login</button>
+    </div>
+    <div class="container">
+        <div class="left-col">
+            <div class="left-box">
+                <div class="col-1">
+                    <h1>ninja</h1>
+                    <h2 class="italic">noun</h2>
+                    <h4>Plural: ninjas</h4>
+                    <button class="btns"onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="col-2">
+                    <h2>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></h2>
+                </div>
+            </div>
+            <div class="left-box">
+                <div class="col-1">
+                    <h1>ninja</h1>
+                    <h2 class="italic">noun</h2>
+                    <h4>Plural: ninjas</h4>
+                    <button class="btns">37 likes</button>
+                </div>
+                <div class="col-2">
+                    <h2>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</h2>
+                </div>
+            </div>
+        </div>
+        <div class="right-col">
+            <div class="right-box">
+                <div class="col">
+                    <h2>Dojonary is defined by YOU</h2>
+                    <button class="def-btn"onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
